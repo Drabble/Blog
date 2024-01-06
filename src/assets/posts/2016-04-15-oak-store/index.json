@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Oak Store",
+    "description": "Oak Store is a versatile web application designed for tracking the last seen episodes of TV shows, animes, and movies. Built on a robust technical stack, including Node.js and Socket.io, Oak Store provides a seamless and efficient solution for managing your entertainment progress. One of its notable features is its ability to synchronize across multiple devices simultaneously, ensuring a consistent experience across your preferred platforms.",
+    "date": "April 15, 2016",
+    "tag": "website"
+}

@@ -1,0 +1,38 @@
+Following up on my previous guitar prototypes [cricket guitar](/post/2018-06-28-cricket-guitar), [skateboard guitar](/post/2016-09-12-skate-guitar) and [cigar box guitar](/post/2016-07-30-cigar-box), I wanted to make a new guitar.I found an old table at the recycling center. It was made of a very heavy hard wood. Taking note from my previous mistakes, I decided to focus on the body and buy a neck. 
+
+The build went well, I used my router and an old electric sander. For the finish I bought some printer ink that I blended in some alcohol and applied to the wood. It makes the grain come out and gives it a nice color.
+
+![Picture](assets/posts/2019-11-14-telecaster/1.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/2.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/3.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/4.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/5.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/6.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/7.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/8.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/9.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/10.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/11.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/12.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/13.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/14.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/15.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/16.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/17.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/18.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/19.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/20.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/21.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/22.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/23.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/24.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/25.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/26.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/27.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/28.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/29.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/30.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/31.webp "Picture")
+![Picture](assets/posts/2019-11-14-telecaster/32.webp "Picture")
+
+*Pictures of the project*

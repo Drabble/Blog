@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Chain of Invincibility",
+    "description": "Chain of Invincibility is a command line-based fighting simulation game developed for a school project, strategically designed to showcase the application of the chain of responsibility design pattern. The chain of responsibility design pattern is a behavioral pattern where a request passes through a chain of handlers, each capable of processing or delegating the request. This pattern promotes loose coupling and flexibility in handling requests.",
+    "date": "May 12, 2016",
+    "tag": "game"
+}

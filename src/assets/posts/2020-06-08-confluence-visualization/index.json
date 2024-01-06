@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Confluence Visualization",
+    "description": "Confluence Visualization is a technical project focused on visualizing data sourced from Confluence, a collaboration and documentation platform. The visualization employs a treemap and other views, powered by the D3.js library. The Confluence API is utilized to retrieve and integrate data for dynamic and informative visual representations.",
+    "date": "June 8, 2020",
+    "tag": "website"
+}

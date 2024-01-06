@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Quest",
+    "description": "Quest stands as the final project for the Bachelor's degree at HEIG-VD, showcasing a comprehensive web survey platform. This intricate project is meticulously crafted using a technical stack that includes Spring Boot, Angular 2, TypeScript, and MongoDB. Noteworthy features of Quest include dynamic form validation, the implementation of nested complex forms supporting multiple types, and more.",
+    "date": "June 15, 2017",
+    "tag": "website"
+}

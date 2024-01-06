@@ -1,0 +1,4 @@
+<button (click)="themeService.toggleDarkMode()">
+    <mat-icon aria-hidden="false" aria-label="Switch theme"
+        [fontIcon]="(themeService.isThemeDark | async) ? 'dark_mode' : 'light_mode'"></mat-icon>
+</button>

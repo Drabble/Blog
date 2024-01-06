@@ -1,0 +1,40 @@
+<div *ngIf="post">
+    <div class="back">
+        <a href="/#{{post.path}}">⬅️ back to home</a>
+    </div>
+    <div class="next_prev">
+        <div *ngIf="previous">
+            <a routerLink="/post/{{previous}}">Previous post</a>
+        </div>
+        <div *ngIf="!previous"></div>
+        <div *ngIf="next">
+            <div *ngIf="next">
+                <a routerLink="/post/{{next}}">Next post</a>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <h1 class="title">
+            {{post.title}}
+        </h1>
+        <div class="date">
+            {{post.date}}
+        </div>
+        <div>
+            <span class="tag">{{post.tag}}</span>
+        </div>
+    </div>
+    <markdown src="assets/posts/{{post.path}}/post.md" lineNumbers [start]="0" [disableSanitizer]="true"
+        ngPreserveWhitespaces katex />
+    <div class="next_prev">
+        <div *ngIf="previous">
+            <a routerLink="/post/{{previous}}">Previous post</a>
+        </div>
+        <div *ngIf="!previous"></div>
+        <div *ngIf="next">
+            <div *ngIf="next">
+                <a routerLink="/post/{{next}}">Next post</a>
+            </div>
+        </div>
+    </div>
+</div>

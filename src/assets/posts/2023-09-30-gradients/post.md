@@ -1,0 +1,3 @@
+An album I recorded alone to learn how to write, play, mix and master music. I spent some time trying to improve it but after a while I decided to just publish it and move forward with new songs.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2M0tcNJ8lvmwdyzM0y31Co?utm_source=generator&theme=0" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

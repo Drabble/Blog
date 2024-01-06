@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Thiefs: Prototype",
+    "description": "Diving into creating an FPS game was a cool experience. Getting hands-on with 3D raycasting and figuring out how FPS games calculate the bullet direction from the cursor position was especially interesting.",
+    "date": "April 13, 2016",
+    "tag": "game"
+}

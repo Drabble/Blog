@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Version mapper",
+    "description": "An internal tool I developed while I was working at Kudelski. Its goal was to store and search different versions of a codebase.",
+    "date": "July 14, 2012",
+    "tag": "website"
+}

@@ -1,0 +1,38 @@
+.title {
+    margin-bottom: 0;
+}
+
+.next_prev {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.next_prev a {
+    color: var(--textColor);
+    font-style: italic;
+}
+
+.back {}
+
+.back a {
+    color: var(--textColor);
+}
+
+.header {
+    margin-bottom: 1rem;
+}
+
+.date {
+    color: var(--dateColor);
+    font-size: 0.8rem;
+}
+
+.tag {
+    color: var(--dateColor);
+    font-size: 0.6rem;
+    background-color: var(--highlightColor);
+    padding: 0.2rem 0.3rem;
+    border-radius: 1rem;
+}

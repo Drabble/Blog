@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Shapefight",
+    "description": "Shapefight, a web-based game, immerses players in dynamic multiplayer arenas accessed via Websockets. Begin your journey with a basic fighter equipped with a single-shot gun firing once per second. Progress unfolds as power-ups enhance your fighter, and defeating opponents yields valuable bonuses.    ",
+    "date": "May 19, 2016",
+    "tag": "game"
+}

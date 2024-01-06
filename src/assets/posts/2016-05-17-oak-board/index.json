@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Oak Board",
+    "description": "Oak Board is a collaborative whiteboard web application that allows multiple users to write on the board simultaneously. Developed with a robust technical foundation, Oak Board utilizes Node.js and Socket.io to deliver a real-time and interactive whiteboarding experience.",
+    "date": "May 17, 2016",
+    "tag": "website"
+}

@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "SqlArtan",
+    "description": "SqlArtan is a group project we developed at University. The goal was to have an alternative to phpmyadmin and other similar products for SQLite.",
+    "date": "January 10, 2016",
+    "tag": "software"
+}

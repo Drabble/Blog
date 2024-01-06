@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Tower Defense",
+    "description": "My plan was to make an infinite medieval tower defense. The map is procedurally generated and grows as your city grows. You have to build defenses in order to protect from enemies and find a good balance between expansion and defense. I also integrated some day/night cycles and post prcoessing effects to make the game more interesting.",
+    "date": "October 22, 2016",
+    "tag": "game"
+}

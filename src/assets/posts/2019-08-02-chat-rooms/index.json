@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Chat Rooms",
+    "description": "Chatrooms is a Node.js-based web application designed to facilitate both audio and text-based chat rooms. The application leverages PeerJS to establish a Peer-to-Peer network, incorporating WebRTC for real-time communication and handling NAT traversal challenges. Additionally, a TURN (Traversal Using Relays around NAT) and STUN (Session Traversal Utilities for NAT) server are employed to ensure seamless communication.",
+    "date": "August 2, 2019",
+    "tag": "website"
+}

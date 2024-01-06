@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Super mario bros with C/SDL",
+    "description": "I picked up C and dived into the world of 2D game development using the SDL library. For practice, I decided to create a simple clone of Super Mario Bros. The goal was less about crafting a masterpiece and more about improving my coding skills and getting a taste of game development.",
+    "date": "July 5, 2013",
+    "tag": "game"
+}

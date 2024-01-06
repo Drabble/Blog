@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Battleship",
+    "description": "Battleship is a multiplayer web-based game that brings the classic naval warfare game to the digital realm. Developed with a technical stack that includes JavaScript, Socket.io, and Express for the backend, along with a Python watchdog to ensure continuous operation and automated restarts if needed.",
+    "date": "February 15, 2018",
+    "tag": "website"
+}

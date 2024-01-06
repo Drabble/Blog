@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Playify",
+    "description": "Playify is a prototype, aiming to assist users in learning how to play the guitar. The technical foundation of this app involves the integration of a WebAssembly (WASM) Rust library, which computes the Fast Fourier Transform (FFT) using the Harmonic Product Spectrum technique. Additionally, a dynamic SVG (Scalable Vector Graphics) generator is employed to create and update guitar tabs in real-time.",
+    "date": "August 5, 2021",
+    "tag": "website"
+}

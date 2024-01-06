@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Paths: Puzzle mobile game",
+    "description": "Creating Paths, a puzzle game for mobile, was indeed a challenging but fulfilling endeavor. The concept was simple yet engaging – connect points of the same color on a grid without leaving any point gray. The initial challenge was generating random solvable games of varying sizes. A brute force approach handled small levels well, but as the grid expanded, metaheuristics became essential to enhance the performance of the generation algorithms. This balancing act between complexity and efficiency was a crucial aspect of the project.",
+    "date": "February 6, 2016",
+    "tag": "game"
+}

@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Baremaps and becoming a member of the Apache foundation",
+    "description": "Apache Baremaps is an open source toolkit and a set of infrastructure components for creating, publishing, and operating online maps. It provides a data pipeline enabling developers to build maps with different data sources. It offers live reload capabilities that allow cartographers to customize the content and the style of a map. It includes an attribution-free map schema and style that stimulates derived work. Finally, it provides services commonly used in online maps, such as location search and IP to location.",
+    "date": "January 15, 2023",
+    "tag": "software"
+}

@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "3D Chess",
+    "description": "I made a 3D chess game set in a forest. The goal was to make something fun and learn how to implement efficiently the rules of chess. Then try to write some AI capable of playing chess better than me (which is not very difficult).",
+    "date": "June 23, 2016",
+    "tag": "game"
+}

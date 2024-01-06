@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Poll Speak",
+    "description": "Pollspeak is a web application designed for creating, administering, and participating in dynamic polls. The project is constructed with a technical stack featuring AngularJS, Socket.io, and Express.js.",
+    "date": "November 28, 2016",
+    "tag": "website"
+}

@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Civilisation",
+    "description": "As a follow-up to my previous prototype, Tower Defense, I thought it would be a good idea to explore the idea of agents. Small independant agents that will work kind of like ants by trying to fetch resources and follow pheromones dropped by other agents.",
+    "date": "November 5, 2016",
+    "tag": "game"
+}

@@ -1,0 +1,242 @@
+@use '@angular/material' as mat;
+@import '@fontsource/outfit';
+
+// Include only once, include ripples and other stuff
+@include mat.core();
+
+$bgColor_light: #fefefe;
+$bgColor_dark: #151515;
+$textColor_light: #1f1f1f;
+$textColor_dark: #f1f1f1;
+$dateColor_light: #3f3f3f;
+$dateColor_dark: #d1d1d1;
+$highlightColor_light: #f1f1f1;
+$highlightColor_dark: #252525;
+$iconColor_light: #444;
+$iconColor_dark: #d1d1d1;
+$hoverColor_light: #000;
+$hoverColor_dark: #fff;
+$linkColor_light: #e7c73b;
+$linkColor_dark: #bec8e2;
+
+// mixin that enables css variables in light mode
+@mixin lighten() {
+    --bgColor: #{$bgColor_light};
+    --textColor: #{$textColor_light};
+    --highlightColor: #{$highlightColor_light};
+    --dateColor: #{$dateColor_light};
+    --iconColor: #{$iconColor_light};
+    --hoverColor: #{$hoverColor_light};
+    --linkColor: #{$linkColor_light};
+}
+
+// mixin that enables css variables in dark mode
+@mixin darken() {
+    --bgColor: #{$bgColor_dark};
+    --textColor: #{$textColor_dark};
+    --highlightColor: #{$highlightColor_dark};
+    --dateColor: #{$dateColor_dark};
+    --iconColor: #{$iconColor_dark};
+    --hoverColor: #{$hoverColor_dark};
+    --linkColor: #{$linkColor_dark};
+}
+
+body {
+    @include lighten();
+}
+
+body.dark {
+    @include darken();
+}
+
+// Define a dark theme
+$dark-theme: mat.define-dark-theme((color: (primary: mat.define-palette(mat.$pink-palette),
+                accent: mat.define-palette(mat.$blue-grey-palette),
+            ),
+            // Only include `typography` and `density` in the default dark theme.
+            typography: mat.define-typography-config(),
+            density: 0,
+        ));
+
+// Define a light theme
+$light-theme: mat.define-light-theme((color: (primary: mat.define-palette(mat.$indigo-palette),
+                accent: mat.define-palette(mat.$pink-palette),
+            ),
+        ));
+
+@include mat.core-color($light-theme);
+@include mat.button-color($light-theme);
+
+.dark {
+    @include mat.core-theme($dark-theme);
+    @include mat.button-theme($dark-theme);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Outfit", sans-serif;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 1.5rem;
+    max-width: 42rem;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+body {
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    transition: background-color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 1rem 0 1rem 0;
+    line-height: 1.25;
+}
+
+
+p {
+    color: var(--textColor);
+    margin: 0 0 1em 0;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--linkColor);
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+video {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    margin: 1em;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+ol li ol,
+ol li ul,
+ul li ol,
+ul li ul {
+    margin: 0 2em;
+}
+
+ol li p,
+ul li p {
+    margin: 0;
+}
+
+dl {
+    font-family: monospace, monospace;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin: -1em 0 1em 1em;
+}
+
+blockquote {
+    padding-left: 1em;
+    font-style: italic;
+    border-left: solid 1px #fa6432;
+}
+
+button {
+    // Remove specific styles
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    // Add more styles as needed
+}
+
+table {
+    font-size: 1rem;
+    text-align: left;
+    caption-side: bottom;
+    margin-bottom: 2em;
+}
+
+table * {
+    border: none;
+}
+
+table thead,
+table tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--highlightColor);
+}
+
+table tbody {
+    display: block;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+table td,
+table th {
+    padding: 0.25em;
+}
+
+table,
+.highlight>pre,
+pre.example {
+    max-height: 70vh;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: auto;
+    font-size: 0.85rem;
+    font-family: monospace, monospace;
+    border: 1px dashed rgba(250, 100, 50, 0.5);
+}
+
+figcaption {
+    font-family: monospace, monospace;
+    font-size: 0.75em;
+
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+pre[class*=language-].line-numbers {
+    margin: 1rem 0;
+}

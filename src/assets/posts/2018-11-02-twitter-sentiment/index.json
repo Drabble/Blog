@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Twitter Sentiment analysis",
+    "description": "We used the Twitter API to retrieve all the tweets related to a specific crypto. We then analyze the sentiment of each of these tweets and ponder them based on multiple criterias. This gives us a total score in real time that we can correllate with the crypto real time price. We then plot all of this data in real time with Python.",
+    "date": "November 2, 2018",
+    "tag": "machine learning"
+}

@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Fight Arena: Prototype",
+    "description": "After giving Unity a go, I decided to explore Unreal Engine. It shares similarities with Unity but brings its own flavor by incorporating both C++ and blueprints. Blueprints, a visual scripting system, caught my attention. It allows you to code by connecting nodes, offering a more visual and intuitive approach. In my experimentation with Unreal Engine, I ventured into creating a simple local game—a fight arena inspired by games like Dragon Ball. However.",
+    "date": "June 21, 2015",
+    "tag": "game"
+}

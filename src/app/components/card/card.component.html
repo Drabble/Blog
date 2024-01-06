@@ -1,0 +1,29 @@
+<a routerLink="post/{{post.path}}" class="card">
+    <ng-container *ngIf="post.thumbnail.endsWith('.mp4'); else elseBlock">
+        <video class="card-thumbnail" loading="lazy" alt="Thumbnail" width="120px" height="120px" loop muted autoplay
+            muted>
+            <source src="assets/posts/{{post.path}}/{{post.thumbnail}}" type="video/mp4">
+        </video>
+    </ng-container>
+    <ng-template #elseBlock>
+        <img class="card-thumbnail" loading="lazy" width="120px" height="120px"
+            src="assets/posts/{{post.path}}/{{post.thumbnail}}" alt="Thumbnail" />
+    </ng-template>
+    <div class="card-content">
+        <span class="card-title">
+            {{post.title}}
+        </span>
+        <span class="card-description">
+            {{post.description}}
+        </span>
+        <span class="spacer"></span>
+        <div class="card-footer">
+            <span class="card-date">
+                {{post.date}}
+            </span>
+            <span class="card-tag">
+                {{post.tag}}
+            </span>
+        </div>
+    </div>
+</a>

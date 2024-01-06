@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.webp",
+    "title": "Oak Task",
+    "description": "Oak Task is a web application designed for storing, sorting, and tracking tasks. With a focus on efficiency and collaboration, Oak Task utilizes Node.js and Socket.io to deliver a seamless task management experience that extends to multiple devices.",
+    "date": "September 15, 2016",
+    "tag": "website"
+}
