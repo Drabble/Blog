@@ -39,4 +39,5 @@ In summary, Quest is a testament to the technical prowess developed during a Bac
 ![Screenshot](assets/posts/2017-06-15-quest/9.webp "Screenshot")
 ![Screenshot](assets/posts/2017-06-15-quest/10.webp "Screenshot")
 ![Screenshot](assets/posts/2017-06-15-quest/11.webp "Screenshot")
+
 *Screenshot of the website*

@@ -32,7 +32,5 @@ The build went well, I used my router and an old electric sander. For the finish
 ![Picture](assets/posts/2019-11-14-telecaster/28.webp "Picture")
 ![Picture](assets/posts/2019-11-14-telecaster/29.webp "Picture")
 ![Picture](assets/posts/2019-11-14-telecaster/30.webp "Picture")
-![Picture](assets/posts/2019-11-14-telecaster/31.webp "Picture")
-![Picture](assets/posts/2019-11-14-telecaster/32.webp "Picture")
 
 *Pictures of the project*

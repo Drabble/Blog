@@ -2,13 +2,12 @@ A boost pedal for a guitar increases the strength of the audio signal, providing
 
 I tried to use one of the most basic circuits with a single transistor to make my own boost pedal. I used an old case of sweets I found lying around for the case. As you can see in the image below, it is very similar to my other [distortion pedal](/post/2016-10-11-distortion-pedal)
 
-![Picture](assets/posts/2019-06-08-boost-pedal/5.webp "Picture")
+![Picture](assets/posts/2019-06-08-boost-pedal/boost.webp "Picture")
 
 *Circuit I used for the boost pedal*
 
 This is the build result. Unfortunately I didn't make any recording of the output of the pedal.
 
-![Picture](assets/posts/2019-06-08-boost-pedal/1.webp "Picture")
 ![Picture](assets/posts/2019-06-08-boost-pedal/2.webp "Picture")
 ![Picture](assets/posts/2019-06-08-boost-pedal/3.webp "Picture")
 ![Picture](assets/posts/2019-06-08-boost-pedal/4.webp "Picture")

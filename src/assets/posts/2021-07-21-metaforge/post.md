@@ -38,6 +38,6 @@ To ensure the decentralization and accessibility of NFT metadata by storing it o
 
 I used Pinata to host content on IPFS, enhancing the reliability and accessibility of the project's metadata. Pinata serves as a convenient and dependable infrastructure, ensuring that the IPFS-based data, including weapon attributes and details, is efficiently stored and served to users. As IPFS is a decentralised network, we need to ensure that at least a few nodes will host the data. It is very similar to torrents, if no peer in the network stores the data, it can be lost forever.
 
-![assets/posts/2020-08-11-erc20/asym_enc.webp](assets/posts/2020-08-11-erc20/asym_enc.webp "Asymmetric encryption")
+![Metaforge website](assets/posts/2021-07-21-metaforge/1.webp "Metaforge website")
 
 *The metaforge website*

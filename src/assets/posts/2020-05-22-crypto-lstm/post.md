@@ -33,7 +33,7 @@ The updated memory cell state becomes the hidden state for the next time step, a
 
 In summary, LSTMs use memory cells and gates to selectively read, write, and erase information over multiple time steps, allowing them to capture long-term dependencies in sequential data. This architecture helps mitigate the vanishing gradient problem and makes LSTMs effective for tasks such as natural language processing, time series prediction, and more.
 
-![Screenshot](assets/posts/2020-05-22-crypto-lstm/2.webp "Screenshot")
+![Screenshot](assets/posts/2020-05-22-crypto-lstm/lstm_cell.webp "Screenshot")
 *LSTM cell*
 
 LSTM can still suffer from the vanishing gradient problem. It happens when the gradients are multiplied repeatedly during backpropagation through the recurrent connections. This causes the gradients to get smaller and smaller until they disappear.

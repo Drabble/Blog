@@ -7,7 +7,7 @@ I needed a variable alimentation to make some test for projects. I also wanted t
 
 Here is the result along with a little demo.
 
-<video  loop>
+<video autoplay loop controls>
   <source src="assets/posts/2020-09-12-alim/1.mp4" type="video/mp4">
 </video>
 

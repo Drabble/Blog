@@ -6,7 +6,7 @@ We made this game with Unity, initially using the HDRP but in the end we discove
 
 Musics are made by Elbbard, we did all the 3D modeling and the coding is a patchwork of Brackey’s, stackoverflow, spiced by our own code.
 
-<video  loop>
+<video autoplay muted loop>
   <source src="assets/posts/2020-09-08-nothing-to-hide/1.mp4" type="video/mp4">
 </video>
 
