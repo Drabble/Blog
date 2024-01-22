@@ -1,2 +1,2 @@
-Write text on multiplayer game adri + Audiocraft + DIY synth with JUCE
+Adri multi game
 Add new knowledge on electronics
