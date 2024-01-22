@@ -1,4 +1,4 @@
-for /r src\assets\posts %%i in (*.jpg *.jpeg *.png *.avif) do (
+for /r src\assets\posts %%i in (*.jpg *.jpeg *.png *.avif *.cr2) do (
    magick convert "%%i" -quality 80 -strip "%%~dpi%%~ni.webp"
    del "%%i"
 )

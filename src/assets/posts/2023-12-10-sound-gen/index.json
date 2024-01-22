@@ -1,7 +1,7 @@
 {
-    "thumbnail": "thumbnail.webp",
+    "thumbnail": "thumbnail.mp4",
     "title": "Sound Generation with AI",
-    "description": "Exploring sound generation.",
+    "description": "Exploring text to sound generation with transformer networks and AudioCraft.",
     "date": "December 10, 2023",
-    "tag": "website"
+    "tag": "machine learning"
 }

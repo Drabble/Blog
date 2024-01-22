@@ -37,7 +37,7 @@ export class PostComponent {
           this.getPost(params['slug'])]
         )),
         tap(([slug, post]) => {
-          this.titleService.setTitle(post.title)
+          this.titleService.setTitle(post.title);
           this.post = {
             ...post,
             path: slug

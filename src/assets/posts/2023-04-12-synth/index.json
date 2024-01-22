@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "C++ synth and learning about Digital Signal Processing",
+    "description": "I decided to improve my c++ and audio skills by writing a custom VST plugin with the Juce framework. ",
+    "date": "April 12, 2023",
+    "tag": "software"
+}
