@@ -105,3 +105,6 @@
 /post/2023-10-26-online-game
 /post/2023-12-10-sound-gen
 /post/2024-01-13-blog
+/post/2024-01-19-electronics-1
+/post/2024-01-19-electronics-2
+/post/2024-01-19-electronics-3

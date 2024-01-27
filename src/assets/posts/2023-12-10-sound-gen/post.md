@@ -2,11 +2,11 @@ I started with music generation of MIDI files with Variational Auto Encoders som
 
 Then I found out about Encodec and Audiocraft. They are deep learning models for audio compression and sound generation. Audiocraft uses Encodec for the generation.
 
-![Encodec](assets/posts/2023-12-10-sound-gen/encodec.png "Encodec")
+![Encodec](assets/posts/2023-12-10-sound-gen/encodec.webp "Encodec")
 
 *Encodec model*
 
-![Audiocraft](assets/posts/2023-12-10-sound-gen/audiocraft.jpg "Audiocraft")
+![Audiocraft](assets/posts/2023-12-10-sound-gen/audiocraft.webp "Audiocraft")
 
 *Audiocraft model*
 
@@ -46,7 +46,7 @@ Then I made a custom Google colab notebook where I used Pytorch to import the au
 
 After training my own models I made a far too complicated architecture for my little prototype but it was very interesting to do.
 
-![Architecture](/assets/posts/2023-12-10-sound-gen/architecture.png "Architecture")
+![Architecture](/assets/posts/2023-12-10-sound-gen/architecture.webp "Architecture")
 
 *Architecture of the app*
 
@@ -56,7 +56,7 @@ I'll break down the components quickly:
 
 OIDC is an authentication layer on top of OAuth 2.0, an authorization framework. It allows applications to verify the identity of end-users based on the authentication performed by an authorization server. I use the Google authentication to authenticate the users. It is slightly more complicated than what happens in the diagram above.
 
-![OIDC](/assets/posts/2023-12-10-sound-gen/oidc.png "OIDC")
+![OIDC](/assets/posts/2023-12-10-sound-gen/oidc.webp "OIDC")
 
 *OIDC architecture*
 

@@ -110,7 +110,7 @@ As we all know sound is created by oscillations of air pressure at a certain fre
 
 The most basic waveform is the sine wave. It contains a single frequency. If we change the shape of the sine wave to something more complex like a square wave, what we are actually doing is adding harmonics to the original waveform. I recommend looking in more depth into the FFT algorithm and other videos on the subject. In the end, any waveform that exists, no matter how complex, can be a combination of multiple sine waves.
 
-![Square wave](assets/posts/2023-04-12-synth/square.png)
+![Square wave](assets/posts/2023-04-12-synth/square.webp)
 
 Here is an example. The timbre is the unique quality of the sound that a musical instrument makes. When two different instruments play the same note, the instruments can still have very different sounds. A big difference in the timbre of instruments is often the harmonics of the instrument. If every instrument was just playing sine waves, it would not be very interesting.
 
