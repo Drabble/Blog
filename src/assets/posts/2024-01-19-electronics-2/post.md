@@ -193,18 +193,18 @@ Transistors can be in 3 modes:
 - Cut-off Mode: Transistor is off; both junctions are reverse-biased.
 - Saturation Mode: Transistor is fully on, allowing maximum current flow; both junctions are forward-biased.
 
-Let's check how to use the datasheet to compute the voltage required to put the transistor in active mode. For example the 2n2222 is a simple NPN transistor [https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf](https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf). On the specification, you can find all kinds of info such as the thermal resistance, maximum voltage, etc.
+You can easily find datasheets for transistors where you can find all kinds of info such as the thermal resistance, maximum voltage, etc.
 
-The $hFE$ of a transistor, often called the DC current gain or simply the beta (β) of the transistor. In the context of a transistor, $hFE$ is defined as the ratio of the collector current $I_C$ to the base current $I_B$ $\[ hFE = \frac{I_C}{I_B} \]$. It represents how much the collector current is amplified in relation to the base current. For example, if $hFE$ is 100, it means that a change in the base current will result in a 100 times larger change in the collector current. Beta is also called $hfe$. 
+The $hFE$ of a transistor, often called the DC current gain or simply the beta (β) of the transistor. In the context of a transistor, $hFE$ is defined as the ratio of the collector current $I_C$ to the base current $I_B$ $\[ hFE = \frac{I_C}{I_B} \]$. It represents how much the collector current is amplified in relation to the base current. For example, if $hFE$ is 100, it means that a change in the base current will result in a 100 times larger change in the collector current. 
 
 $V_{BE}$ stands for the "base-emitter voltage" in a bipolar junction transistor (BJT). It represents the voltage drop across the base-emitter junction of the transistor when the transistor is in forward active mode. In an NPN transistor, the $V_{BE}$ voltage is typically around 0.6 to 0.7 volts for silicon transistors. For PNP transistors, the $V_{BE}$ voltage is negative, and its magnitude is similar to that of NPN transistors.
 
-Let's say we want to amplify a small input signal that oscillates between 0V and 1V with a 12V battery connected to the collector. We want to maximize the amplification. How do we do that?
+Here are some steps to connect a transistor as an amplifier.
 
-1. **Connect the collector and emitter:** Connect the collector (C) of the 2N2222 to the positive terminal of the 12V battery.
-Connect the emitter (E) of the 2N2222 to the ground (negative terminal) of the battery through an emitter resistor (RE). Use a resistor value (e.g., 470 ohms) that sets an appropriate bias point for the transistor.
+1. **Connect the collector and emitter:** Connect the collector (C) of the transistor to the positive terminal of the 12V battery.
+Connect the emitter (E) of the transistor to the ground (negative terminal) of the battery through an emitter resistor (RE). Use a resistor value (e.g., 470 ohms) that sets an appropriate bias point for the transistor.
 
-2. **Connect the base:**  Connect the input signal source to the base (B) of the 2N2222 through a coupling capacitor (C1) to block the DC component of the input signal. 
+2. **Connect the base:**  Connect the input signal source to the base (B) of the transistor through a coupling capacitor (C1) to block the DC component of the input signal. 
 
 3. **Determine the desired collector current:** Choose a collector current, $I_{CQ}$. Let's say $I_{CQ} = 1.5 \, \text{mA}$.
 
@@ -218,7 +218,7 @@ Connect the emitter (E) of the 2N2222 to the ground (negative terminal) of the b
 
 8. **Calculate $R_1$:** Use the formula $R_1 = \frac{V_{BE}}{I_B} - R_2$, where $I_B \approx \frac{I_{CQ}}{\beta}$. You might need to check the transistor datasheet for the value of $\beta$. Here's the computation for $R_1$: \[R_1 = \frac{V_{BE}}{I_B} - R_2\] and \[R_1 = \frac{V_{BE}}{\frac{I_{CQ}}{\beta}} - R_2\] Substitute the given values: $\[R_1 \approx \frac{0.7 \, \text{V}}{\frac{1.5 \, \text{mA}}{\beta}} - 10 \, \text{k}\Omega\]$ Note: Adjust $\beta$ based on the transistor's datasheet.
 
-I highly recommend this awesome video here [https://www.youtube.com/watch?v=gnHuzM8PDrc](https://www.youtube.com/watch?v=gnHuzM8PDrc)
+I highly recommend this awesome video here [https://www.youtube.com/watch?v=gnHuzM8PDrc](https://www.youtube.com/watch?v=gnHuzM8PDrc). Take a look at the next post for a better example on how to use a NPN transistor.
 
 ![Dumb amplification circuit](assets/posts/2024-01-19-electronics-2/amp.webp "Dumb amplification circuit")
 
