@@ -257,3 +257,21 @@ It makes sense to use JFETs when high input impedance is critical, and where sim
 *Integrated circuits examples*
 
 **More on LED:** LEDs produce light through electroluminescence when a DC voltage is applied. Electrons and holes move through the semiconductor material, recombining at the N-P junction and releasing photons. The frequency (color) of the emitted light is determined by the energy of these photons, which in turn is influenced by the bandgap energy of the semiconductor material. Different semiconductor materials yield LEDs of various colors; for instance, gallium arsenide for red LEDs and gallium nitride for blue LEDs. The higher the bandgap energy, the shorter the wavelength, resulting in higher-frequency light. LEDs emit electromagnetic radiation in the form of light, with the color spectrum determined by the semiconductor properties, enabling a wide range of applications in lighting and display technologies.
+
+**Triac:** A triac, or triode for alternating current, is a semiconductor device commonly used in AC power control applications. It acts as a bidirectional switch, allowing current to flow in both directions when triggered. Triacs consist of three layers of semiconductor material and can be triggered into conduction by a small gate current. Once triggered, a triac remains conducting until the current falls below a certain threshold. Triacs are frequently used in dimmer switches, motor speed control, and other applications where precise control of AC power is needed. Their bidirectional nature makes them suitable for controlling both halves of an AC waveform.
+
+![Triac Circuit](assets/posts/2024-01-19-electronics-2/triac.webp "Triac Circuit")
+
+*Triac circuit https://www.electricaltechnology.org/2021/04/difference-diac-triac.html*
+
+**Relay:** A relay is an electromagnetic switch that uses a small electric current to control the flow of a larger current in an electrical circuit. It consists of an electromagnet and a set of contacts that open or close when the electromagnet is energized. Relays are commonly used to control high-power devices with low-power signals, providing isolation between the control circuit and the load. They play a crucial role in applications such as automation, industrial control systems, and electrical protection. Relays are versatile and come in various types, including electromagnetic relays, solid-state relays, and reed relays, each tailored to specific needs. Relays have mechanical components, like contacts, that can wear out over time, leading to reduced reliability and a limited operational lifespan. Additionally, their switching speed is comparatively slower than semiconductor devices, and they may produce audible noise during operation due to the mechanical movement.
+
+![Relay Circuit](assets/posts/2024-01-19-electronics-2/triac.webp "Relay Circuit")
+
+*Relay circuit https://library.automationdirect.com/what-is-a-relay/*
+
+**Solid State Relay (SSR:)** A Solid-State Relay (SSR) is an electronic switch utilizing semiconductor devices for current switching, eliminating the need for mechanical contacts. SSRs offer advantages such as the absence of moving parts, providing enhanced reliability and durability, fast switching speeds suitable for applications requiring rapid control, and electrical isolation for increased safety. The quiet operation, long lifespan due to reduced wear and tear, and versatility in supporting both AC and DC applications make SSRs well-suited for a wide range of scenarios requiring precise and accurate switching. However, they may be comparatively more expensive, have limitations on surge current capability, and require proper heat management due to potential heat generation during operation. Despite these disadvantages, the benefits of reliability, speed, and longevity make SSRs a preferred choice in many electronic and control systems.
+
+![SSR Circuit](assets/posts/2024-01-19-electronics-2/ssr.webp "SSR Circuit")
+
+*SSR https://instrumentationtools.com/what-is-a-solid-state-relay-working-principle-types-of-control/*
