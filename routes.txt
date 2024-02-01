@@ -108,3 +108,4 @@
 /post/2024-01-19-electronics-1
 /post/2024-01-19-electronics-2
 /post/2024-01-19-electronics-3
+/post/2024-02-01-music-theory
