@@ -7,11 +7,6 @@ import { CommonModule } from '@angular/common';
 import { Post } from '../../post';
 import { MatSelectModule } from '@angular/material/select';
 
-
-const posts = [
-  "2024-01-01-monotonum"
-]
-
 @Component({
   selector: 'app-home',
   standalone: true,
