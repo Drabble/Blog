@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Taiko drum with Arduino and Piezo sensors",
+    "description": "I wanted to learn more about using arduinos as USB controllers and also make a usb MIDI controller for music.",
+    "date": "May 19, 2025",
+    "tag": "diy"
+}
