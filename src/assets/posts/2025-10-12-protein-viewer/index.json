@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Protein Viewer",
+    "description": "High-performance 3D protein structure visualization using Rust and wgpu.",
+    "date": "October 12, 2025",
+    "tag": "software"
+}
