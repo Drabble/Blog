@@ -1,7 +1,7 @@
 {
     "thumbnail": "thumbnail.mp4",
-    "title": "Sono Sono",
-    "description": "An interactive rhythm game for music practice built with React.",
+    "title": "Sono Sono - sonosono.app",
+    "description": "An interactive tool for guitar learning and practice at sonosono.app.",
     "date": "January 1, 2026",
     "tag": "music"
 }

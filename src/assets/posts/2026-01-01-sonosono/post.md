@@ -1,3 +1,5 @@
+# [Sono Sono - sonosono.app](https://sonosono.app)
+
 Sono Sono is not just a rhythm game; it's a high-performance tool designed to help musicians master the guitar. By combining state-of-the-art Automatic Music Transcription (AMT) with real-time digital signal processing (DSP), it provides an unparalleled practice experience.
 
 ### The Technical "Brain"
