@@ -30,7 +30,7 @@ Ok so all of this is cool but how does it apply to electronics. Well we know tha
 
 **Analogy with water, Current (I):** Current is simply a measure of the flow of water in the entire pipe. If you take any point in the pipe and measure the water flow for a certain amount of time, it will be the same anywhere in the pipe. The flow of water will depend on the pressure of the water and the resistance. In electricity the current is the amount of electrons flowing through the pipe and it is measured in amperes.
 
-![Analogy with water](assets/posts/2024-01-19-electronics-1/analogy.webp "Analogy with water")
+![Analogy with water](assets/posts/2024-01-19-electronics/analogy.webp "Analogy with water")
 
 *Analogy with water, source: https://learn.sparkfun.com/tutorials/transistors/extending-the-water-analogy*
 
@@ -48,9 +48,9 @@ Ok so all of this is cool but how does it apply to electronics. Well we know tha
 
 **Magnetic fields:** A magnetic field is like an invisible force around magnets and things with moving electricity. This field has both direction and strength, typically represented by magnetic field lines. The field plays a crucial role in interactions between magnetic materials and is fundamental in electromagnetism, influencing the behavior of charged particles and contributing to various technological applications, such as electric motors and magnetic storage devices. We don't have to understand exaclty why this magnetic field exists. It is rooted in quantum mechanics and difficult to understand but you can read the magnetic moment section below if you want a slightly deeper explanation. Also check out these images below to visualize the magnetic field.
 
-![Magnetic field](assets/posts/2024-01-19-electronics-1/magnetic1.webp "Magnetic field")
-![Magnetic field](assets/posts/2024-01-19-electronics-1/magnetic2.webp "Magnetic field")
-![Magnetic field](assets/posts/2024-01-19-electronics-1/magnetic3.webp "Magnetic field")
+![Magnetic field](assets/posts/2024-01-19-electronics/magnetic1.webp "Magnetic field")
+![Magnetic field](assets/posts/2024-01-19-electronics/magnetic2.webp "Magnetic field")
+![Magnetic field](assets/posts/2024-01-19-electronics/magnetic3.webp "Magnetic field")
 
 **Magnetic moment:** The magnetic moment of an atom is a quantum physics concept arising from the intrinsic properties of electrons, including spin and orbital angular momentum. Electrons contribute to the overall magnetic moment, influencing how atoms respond to magnetic fields. In materials like metals, alignment of these magnetic moments creates magnetic domains. Exposure to an external magnetic field can induce alignment, turning the material into a magnet. The understanding of magnetic moments is rooted in quantum mechanics, describing particle behavior at atomic and subatomic scales.
 
@@ -118,7 +118,7 @@ A follow-up on the previous chapter, we will look at electronic components we ca
 
 First here is a recap on the electronic concepts that are import here, as well as the water analogy that we will continue later in this post. Current is the flow of electric charge in a conductor, measured in amperes (A). It is driven by a potential difference, such as voltage (V), which provides the force for electrons to move. Current flows from the positive to negative terminal in a circuit, opposite to the direction of electron movement. In direct current (DC), electrons move consistently in one direction, while in alternating current (AC), electrons oscillate back and forth at a certain frequency. The relationship between current (I), voltage (V), and resistance (R) is described by Ohm's Law: $I = V/R$. Moving electrons create a electromagnetic field which is what we consider the current. In a vacuum this electromagnetic field which is made of Photons (elementary particle) moves a the speed of light. The movement speed of electrons within a conductor is less than 1% of the speed of light. In the water analogy, the current is simply the measure of the amount of water going through a pipe. The voltage is the pressure of water and the resistance is a narrow section that restricts the flow of water and causes a drop in the water pressure.
 
-![Analogy with water](assets/posts/2024-01-19-electronics-2/analogy.webp "Analogy with water")
+![Analogy with water](assets/posts/2024-01-19-electronics/analogy.webp "Analogy with water")
 
 *Water analogy for electricity*
 
@@ -156,7 +156,7 @@ Other notable laws are:
 
 **Resistor (R):** A resistor is a passive two-terminal electronic component that opposes the flow of electric current. It is commonly used to control the amount of current flowing in a circuit and to provide voltage division in a circuit. The resistance of a resistor can be read from the color strips that you can find on most resistors.
 
-![Resistor](assets/posts/2024-01-19-electronics-2/resistor.webp "Resistor")
+![Resistor](assets/posts/2024-01-19-electronics/resistor.webp "Resistor")
 
 *Resistor bands*
 
@@ -183,7 +183,7 @@ Here are relevant equations for resistors:
 
 **Capacitor (C):** A capacitor is a two-terminal component that stores electrical energy in an electric field. It will not let electrons through but they will accumulate at one of its ends. In the water analogy we can visualize the capacitor as a balloon inside the pipe. The balloon can fill up until a certain point but it will never let the water get to the other end of the pipe. It is often used to smooth voltage fluctuations, filter signals, and store energy. There are all kinds of types of capacitors that have different properties.
 
-![Capacitor](assets/posts/2024-01-19-electronics-2/capacitor.webp "Capacitor")
+![Capacitor](assets/posts/2024-01-19-electronics/capacitor.webp "Capacitor")
 
 *Types of capacitors*
 
@@ -213,7 +213,7 @@ Here are relevant equations for capacitors:
 
 **Inductor (L):** An inductor is a coil of wire that resists changes in the flow of electric current. It stores energy in a magnetic field. It is difficult to make an analogy with the water but as opposed to the balloon analogy, it will let the water pass through but it will keep a small reserve of water to keep it going if the water pressure diminishes. It is used in applications like filters, transformers, and energy storage.
 
-![Inductor](assets/posts/2024-01-19-electronics-2/inductor.webp "Inductor")
+![Inductor](assets/posts/2024-01-19-electronics/inductor.webp "Inductor")
 
 *Types of coils*
 
@@ -243,13 +243,13 @@ Here are relevant equations for inductors:
 
 **P-type Semiconductors:** P-type semiconductors are created by introducing impurities (dopants) with fewer electrons than the host material. Common p-type dopants include boron. Boron has 3 electrons in its valence shell while silicon has 4 electrons. There is a rule called the octet rule that says that to stabilize, atoms will try to have 8 electrons in there valence shell. The silicon atoms will share an electron with an adjacent atom to effectively double the amount of electrons they have. This way the silicon atoms have 8 electrons and they are stable. When we add boron which has 3 electrons in its outter shell, we will be left with holes where a silicon atom and the boron atom miss 1 electron to reach 8. This allows free moving electrons to come fill this hole.
 
-![P-type](assets/posts/2024-01-19-electronics-2/ptype.webp "P-type")
+![P-type](assets/posts/2024-01-19-electronics/ptype.webp "P-type")
 
 *P-type boron doping. http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/dope.html*
 
 **N-type Semiconductors:** N-type semiconductors result from introducing dopants with extra electrons, such as phosphorus or arsenic, into the crystal lattice. These extra electrons become charge carriers in the material, contributing to its conductivity. The extra electrons are able to move around easily.
 
-![N-type](assets/posts/2024-01-19-electronics-2/ntype.webp "N-type")
+![N-type](assets/posts/2024-01-19-electronics/ntype.webp "N-type")
 
 *N-type boron doping. http://hyperphysics.phy-astr.gsu.edu/hbase/Solids/dope.html*
 
@@ -263,19 +263,19 @@ When a diode is idle with no external voltage the free electrons in the n-type p
 
 If we connect the negative terminal of a battery on the n-type region of the diode and the positive terminal on the p-type region, we are in forward bias. The electrons coming from the negative terminal will be able to freely move in the n-type region and be attracted by the positively charged depletion region. When these electrons reach the depletion region, they can then travel through the holes in the p-type region.
 
-![Forward bias](assets/posts/2024-01-19-electronics-2/forward.webp "Forward bias")
+![Forward bias](assets/posts/2024-01-19-electronics/forward.webp "Forward bias")
 
 *Diode in forward bias mode*
 
 If we connect the negtive terminal of a battery on the p-type region and the positive terminal on the n-type region, we are in reverse bias mode. The electrons coming from the negative terminal will be repelled by the negatively charged depletion region on the p-type. This will prevent the electricity from flowing. At a certain voltage, the diode can enter breakdown mode, meaning that it will conduct current in reverse bias mode. Breakdown is generally an undesired state for standard diodes but can be exploited in Zener diodes designed for voltage regulation. In other diodes, steps are taken to prevent breakdown to ensure proper functionality and reliability.
 
-![Reverse bias](assets/posts/2024-01-19-electronics-2/reverse.webp "Reverse bias")
+![Reverse bias](assets/posts/2024-01-19-electronics/reverse.webp "Reverse bias")
 
 *Diode in reverse bias mode*
 
 **Transistor:** Transistors are semiconductor devices that can be used as amplifiers, switches, or signal modulators. There are different types of transistors, including bipolar junction transistors (BJTs) and field-effect transistors (FETs). It is usually a combination of P-type semi-conductors and N-type semiconductors in a sandwich. Let's go through all the types of transistors.
 
-![Transistor types](assets/posts/2024-01-19-electronics-2/transistors.webp "Transistor types")
+![Transistor types](assets/posts/2024-01-19-electronics/transistors.webp "Transistor types")
 
 *Families of transistors*
 
@@ -297,7 +297,7 @@ Here are some relevant equations for transistors:
 
 Note that the NPN is not symmetric. The emitter terminal is heavily doped compared to the collector and base.
 
-![NPN transistor](assets/posts/2024-01-19-electronics-2/npn.webp "NPN transistor")
+![NPN transistor](assets/posts/2024-01-19-electronics/npn.webp "NPN transistor")
 
 *NPN transistor https://www.electronics-tutorials.ws/transistor/tran_2.html*
 
@@ -336,13 +336,13 @@ Here are some steps to connect a transistor as an amplifier.
 
 I highly recommend this awesome video here [https://www.youtube.com/watch?v=gnHuzM8PDrc](https://www.youtube.com/watch?v=gnHuzM8PDrc). Take a look at the next post for a better example on how to use a NPN transistor.
 
-![Dumb amplification circuit](assets/posts/2024-01-19-electronics-2/amp.webp "Dumb amplification circuit")
+![Dumb amplification circuit](assets/posts/2024-01-19-electronics/amp.webp "Dumb amplification circuit")
 
 *Dumb amplification circuit*
 
 **PNP transistor:** A PNP transistor is essentially the reverse of an NPN transistor, characterized by a reversal in the polarities of its semiconductor layers. In a PNP configuration, a P-type semiconductor is positioned between two N-type layers, in contrast to an NPN transistor where an N-type semiconductor is between two P-type layers. This reversal results in a change in the direction of current flow; in a PNP transistor, current flows from the emitter (P-type) to the collector (N-type). The majority charge carriers in PNP transistors are holes, while NPN transistors rely on electrons. Despite these structural differences, both PNP and NPN transistors share similar functional principles, allowing for their interchangeability in many electronic circuit applications with appropriate adjustments for reversed polarities.
 
-![PNP transistor](assets/posts/2024-01-19-electronics-2/pnp.webp "PNP transistor")
+![PNP transistor](assets/posts/2024-01-19-electronics/pnp.webp "PNP transistor")
 
 *PNP transistor*
 
@@ -352,7 +352,7 @@ There are two main types: N-channel MOSFETs and P-channel MOSFETs. Similar to PN
 
 Use MOSFETs when high input impedance, low power consumption, and fast switching speeds are critical. They excel in digital applications and scenarios requiring minimal voltage drop in the on state. On the other hand, choose NPN BJTs for simpler amplification needs, especially in low-frequency applications. NPN BJTs can handle high voltage and may be easier to bias in certain situations. The decision should be based on the specific characteristics required by your application.
 
-![MOSFET transistor](assets/posts/2024-01-19-electronics-2/mosfet.webp "MOSFET transistor")
+![MOSFET transistor](assets/posts/2024-01-19-electronics/mosfet.webp "MOSFET transistor")
 
 *MOSFET transistor*
 
@@ -362,13 +362,13 @@ Notable features of JFETs include their high input impedance, making them suitab
 
 It makes sense to use JFETs when high input impedance is critical, and where simplicity and ease of biasing are desired. Their application is particularly relevant in amplifier circuits where preserving signal integrity is crucial, such as in audio amplification stages. Additionally, JFETs can be considered in cases where the characteristics of high input impedance align with the specific requirements of the circuit.
 
-![JFET transistor](assets/posts/2024-01-19-electronics-2/jfet.webp "JFET transistor")
+![JFET transistor](assets/posts/2024-01-19-electronics/jfet.webp "JFET transistor")
 
 *JFET transistor*
 
 **Integrated Circuit (IC):** An integrated circuit is a miniaturized electronic circuit that contains a large number of interconnected semiconductor devices, such as transistors, resistors, capacitors, and diodes. ICs can perform complex functions and are the basis for modern electronic systems.
 
-![Integrated Circuit](assets/posts/2024-01-19-electronics-2/ic.webp "Integrated Circuit")
+![Integrated Circuit](assets/posts/2024-01-19-electronics/ic.webp "Integrated Circuit")
 
 *Integrated circuits examples*
 
@@ -376,19 +376,19 @@ It makes sense to use JFETs when high input impedance is critical, and where sim
 
 **Triac:** A triac, or triode for alternating current, is a semiconductor device commonly used in AC power control applications. It acts as a bidirectional switch, allowing current to flow in both directions when triggered. Triacs consist of three layers of semiconductor material and can be triggered into conduction by a small gate current. Once triggered, a triac remains conducting until the current falls below a certain threshold. Triacs are frequently used in dimmer switches, motor speed control, and other applications where precise control of AC power is needed. Their bidirectional nature makes them suitable for controlling both halves of an AC waveform.
 
-![Triac Circuit](assets/posts/2024-01-19-electronics-2/triac.webp "Triac Circuit")
+![Triac Circuit](assets/posts/2024-01-19-electronics/triac.webp "Triac Circuit")
 
 *Triac circuit https://www.electricaltechnology.org/2021/04/difference-diac-triac.html*
 
 **Relay:** A relay is an electromagnetic switch that uses a small electric current to control the flow of a larger current in an electrical circuit. It consists of an electromagnet and a set of contacts that open or close when the electromagnet is energized. Relays are commonly used to control high-power devices with low-power signals, providing isolation between the control circuit and the load. They play a crucial role in applications such as automation, industrial control systems, and electrical protection. Relays are versatile and come in various types, including electromagnetic relays, solid-state relays, and reed relays, each tailored to specific needs. Relays have mechanical components, like contacts, that can wear out over time, leading to reduced reliability and a limited operational lifespan. Additionally, their switching speed is comparatively slower than semiconductor devices, and they may produce audible noise during operation due to the mechanical movement.
 
-![Relay Circuit](assets/posts/2024-01-19-electronics-2/triac.webp "Relay Circuit")
+![Relay Circuit](assets/posts/2024-01-19-electronics/triac.webp "Relay Circuit")
 
 *Relay circuit https://library.automationdirect.com/what-is-a-relay/*
 
 **Solid State Relay (SSR:)** A Solid-State Relay (SSR) is an electronic switch utilizing semiconductor devices for current switching, eliminating the need for mechanical contacts. SSRs offer advantages such as the absence of moving parts, providing enhanced reliability and durability, fast switching speeds suitable for applications requiring rapid control, and electrical isolation for increased safety. The quiet operation, long lifespan due to reduced wear and tear, and versatility in supporting both AC and DC applications make SSRs well-suited for a wide range of scenarios requiring precise and accurate switching. However, they may be comparatively more expensive, have limitations on surge current capability, and require proper heat management due to potential heat generation during operation. Despite these disadvantages, the benefits of reliability, speed, and longevity make SSRs a preferred choice in many electronic and control systems.
 
-![SSR Circuit](assets/posts/2024-01-19-electronics-2/ssr.webp "SSR Circuit")
+![SSR Circuit](assets/posts/2024-01-19-electronics/ssr.webp "SSR Circuit")
 
 *SSR https://instrumentationtools.com/what-is-a-solid-state-relay-working-principle-types-of-control/*
 
