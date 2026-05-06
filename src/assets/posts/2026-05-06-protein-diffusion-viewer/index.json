@@ -1,0 +1,7 @@
+{
+    "thumbnail": "thumbnail.mp4",
+    "title": "Protein Diffusion Viewer",
+    "description": "Real-time molecular renderer for visualizing AI diffusion denoising trajectories with stochastic point splatting.",
+    "date": "May 06, 2026",
+    "tag": "machine learning"
+}

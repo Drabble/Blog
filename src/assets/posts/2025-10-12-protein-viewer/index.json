@@ -1,7 +1,7 @@
 {
     "thumbnail": "thumbnail.mp4",
     "title": "Protein Viewer",
-    "description": "High-performance 3D protein structure visualization using Rust and wgpu.",
+    "description": "High-performance asynchronous molecular visualization engine handling 50M+ atoms with zero-mesh raycasted billboards.",
     "date": "October 12, 2025",
     "tag": "software"
 }
