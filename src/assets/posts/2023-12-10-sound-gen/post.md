@@ -66,7 +66,7 @@ The Angular application is built and then served through a Content Delivery Netw
 
 **API**
 
-The API is written with Apollo Server and GraphQL. GraphQL is a query language and runtime for APIs (Application Programming Interfaces) that was developed by Facebook and released as an open-source project in 2015. It provides a more efficient, powerful, and flexible alternative to traditional REST APIs for fetching and updating data.
+The API uses Apollo Server and GraphQL. Clients request the fields they need from the schema rather than calling a separate endpoint for each result.
 
 **Postgres and S3**
 

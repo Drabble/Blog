@@ -1,5 +1,3 @@
-I took on the challenge of creating a game called "Survival." This project had a simple yet engaging premise: players would dive into a survival experience, tasked with building their civilization. The gameplay focused on strategic decision-making, resource management, and the gradual development of a flourishing society within a dynamic environment. Although the visuals were kept straightforward, the goal was to deliver an immersive and captivating experience, allowing players to explore the intricacies of survival and civilization-building.
+Survival was a game prototype about building a civilization and managing resources. I kept the graphics simple while experimenting with the underlying gameplay.
 
 <img src="assets/posts/2015-08-19-survival/1.webp" alt="Game" title="Game" />
-
-*Screenshots taken from the game Fight Arena*

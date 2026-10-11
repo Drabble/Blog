@@ -10,7 +10,7 @@ NFTs are unique digital assets that represent ownership or proof of authenticity
 
 **NFT Generation**
 
-A friend of mine developed a robust Python-based generator designed to dynamically create unique weapons images for video games. Leveraging algorithms and logic, the generator ensures that each weapon possesses distinctive attributes, contributing to the overall diversity and rarity of the NFT collection.
+A friend wrote a Python generator for weapon images. We used those images for an ERC-721 collection.
 
 **ERC-721 Smart Contracts and OpenZeppelin**
 
@@ -20,7 +20,7 @@ OpenZeppelin smart contracts are fully tested and validated smart contracts that
 
 **Web3 Website**
 
-I created an interactive website using Web3, allowing users to seamlessly connect their MetaMask wallets. The user-friendly interface facilitates the minting process, enabling users to claim ownership of new ERC-721 tokens directly through the website. This integration provides a smooth and accessible user experience for participants in the project.
+I made a Web3 website where users could connect MetaMask and mint tokens.
 
 **Minting Process**
 
@@ -28,7 +28,7 @@ Users can actively participate in the project by minting new NFTs through the we
 
 **Opensea Integration**
 
-To facilitate seamless integration with OpenSea, one of the most popular NFT marketplaces. Users can conveniently view, manage, and potentially trade their minted weapons directly on OpenSea. This integration broadens the reach of the project, connecting with a larger audience of collectors and enthusiasts within the thriving NFT ecosystem.
+The minted weapons could also be viewed on OpenSea.
 
 **Metadata on IPFS**
 

@@ -40,7 +40,7 @@ Ok so all of this is cool but how does it apply to electronics. Well we know tha
 
 **Photovoltaic Cells (Solar Cells):** Photovoltaic cells, also known as solar cells, convert sunlight directly into electricity through the photovoltaic effect. When photons from sunlight strike the semiconductor material of the solar cell, electrons are released, creating an electric current.
 
-**Moving Magnetic Fields (Generators):** Faraday's law of electromagnetic induction explains how moving a magnet within a coil of wire or changing the magnetic field induces an electromotive force (EMF) in the wire. This induced EMF can drive an electric current in a circuit, as seen in electric generators. For example, in a nuclear plant, we actually generate heat by triggering nuclear fission in a chain reaction with heavy materials such as Uranium. When nuclear fission generates heat, it will in turn turn water to steam and the steam will push a turbine. This turbine contains magnets and induces a magnetic field (see below for more) that will generate a current and thus electricity. To understand nuclear fission requires to delve into nuclear forces and we won't do that here. But exploring fission and fusion might be an interesting topic for later.
+**Moving Magnetic Fields (Generators):** A changing magnetic flux through a coil induces an electromotive force. In a power station, a turbine drives a generator to turn mechanical energy into electrical energy. Nuclear fission is one way to produce the heat that drives the turbine.
 
 **Thermoelectric Effect:** The thermoelectric effect involves generating electric current from a temperature gradient. When a temperature difference exists between the two ends of a conductive material, it can induce the movement of electrons, creating a voltage potential and generating an electric current.
 
@@ -96,7 +96,7 @@ Where:
    $\[ \nabla \times \mathbf{B} = \mu_0 (\mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}) \]$
    The curl of the magnetic field $\(\mathbf{B}\)$ is proportional to the sum of electric current density $\(\mathbf{J}\)$ and the rate of change of the electric field $\(\mathbf{E}\)$.
 
-- $\(\mathbf{E}\$) - Electric Field: Represents the force experienced by a charged particle in an electric field. Units: Volts per meter $(V/m)$.
+- $\(\mathbf{E}\)$ - Electric Field: Represents the force experienced by a charged particle in an electric field. Units: Volts per meter $(V/m)$.
 
 - $\(\mathbf{B}\)$ - Magnetic Field: Describes the strength and direction of the magnetic force on a moving charged particle. Units: Tesla $(T)$ or Gauss $(G)$.
 
@@ -110,7 +110,7 @@ Where:
 
 **Photons:** A photon is a fundamental particle of light and other forms of electromagnetic radiation. It is a quantum of the electromagnetic field, carrying energy and momentum. Photons have no mass and travel at the speed of light in a vacuum. They exhibit both wave-like and particle-like properties, and their energy is directly proportional to their frequency, as described by the equation $E=h⋅f$, where $E$ is energy, $h$ is Planck's constant, and $f$ is frequency. Photons play a crucial role in the transmission of energy in the form of electromagnetic waves, including visible light, radio waves, microwaves, and X-rays.
 
-**Light and heat:** The electromagnetic force governs the behavior of light. Light consists of photons, which are particles that represent packets of electromagnetic energy. The frequency at which the associated magnetic field oscillates determines the color of light. Infrared frequencies, beyond the visible spectrum, are associated with heat. When atoms experience heat, they absorb energy and emit photons, often in the infrared range, contributing to the sensation of warmth. In summary, light is composed of photons with specific frequencies, and heat causes the emission of photons, particularly in the infrared part of the electromagnetic spectrum.
+**Light and heat:** Light is electromagnetic radiation. Its frequency determines its color in the visible spectrum. Objects also emit thermal radiation, with a spectrum that depends on temperature.
 
 # Components
 
@@ -292,7 +292,6 @@ Here are some relevant equations for transistors:
   - $I_D = k \cdot (V_{GS} - V_{th})^2$
   - The drain current $I_D$ in a FET is related to the gate-source voltage $V_{GS}$ by the square of the voltage difference minus the threshold voltage $V_{th}$, with $k$ being a proportionality constant.
 
-
 **NPN transistor:** An NPN transistor is a bipolar junction transistor with three layers – N-type (collector), P-type (base), and N-type (emitter). In operation, a small forward-biased current at the base controls a larger current flow from the collector to the emitter, allowing for amplification. The collector-base junction is reverse-biased. NPN transistors find applications in amplification, switching, and signal processing circuits. Their schematic symbol features an arrow pointing outward from the base terminal.
 
 Note that the NPN is not symmetric. The emitter terminal is heavily doped compared to the collector and base.
@@ -305,9 +304,11 @@ Something I always struggle to understand is how the small current in the base-e
 
 Transistors can be in 3 modes:
 
-- Active Mode: Transistor amplifies signals; both junctions are forward-biased.
-- Cut-off Mode: Transistor is off; both junctions are reverse-biased.
-- Saturation Mode: Transistor is fully on, allowing maximum current flow; both junctions are forward-biased.
+- Forward-active mode: the base-emitter junction is forward-biased and the base-collector junction is reverse-biased.
+- Cut-off mode: the base-emitter junction is not sufficiently forward-biased to conduct appreciably.
+- Saturation mode: both junctions are forward-biased.
+
+See [Toshiba's explanation of BJT operating regions](https://toshiba.semicon-storage.com/us/semiconductor/knowledge/faq/mosfet_bipoler-transistors/how-do-npn-and-pnp-transistors-operate.html).
 
 You can easily find datasheets for transistors where you can find all kinds of info such as the thermal resistance, maximum voltage, etc.
 
@@ -340,7 +341,7 @@ I highly recommend this awesome video here [https://www.youtube.com/watch?v=gnHu
 
 *Dumb amplification circuit*
 
-**PNP transistor:** A PNP transistor is essentially the reverse of an NPN transistor, characterized by a reversal in the polarities of its semiconductor layers. In a PNP configuration, a P-type semiconductor is positioned between two N-type layers, in contrast to an NPN transistor where an N-type semiconductor is between two P-type layers. This reversal results in a change in the direction of current flow; in a PNP transistor, current flows from the emitter (P-type) to the collector (N-type). The majority charge carriers in PNP transistors are holes, while NPN transistors rely on electrons. Despite these structural differences, both PNP and NPN transistors share similar functional principles, allowing for their interchangeability in many electronic circuit applications with appropriate adjustments for reversed polarities.
+**PNP transistor:** A PNP transistor has an N-type base between P-type emitter and collector regions. An NPN transistor has a P-type base between N-type regions. PNP operation reverses the voltage polarities and conventional current direction relative to NPN operation.
 
 ![PNP transistor](assets/posts/2024-01-19-electronics/pnp.webp "PNP transistor")
 
@@ -372,7 +373,7 @@ It makes sense to use JFETs when high input impedance is critical, and where sim
 
 *Integrated circuits examples*
 
-**More on LED:** LEDs produce light through electroluminescence when a DC voltage is applied. Electrons and holes move through the semiconductor material, recombining at the N-P junction and releasing photons. The frequency (color) of the emitted light is determined by the energy of these photons, which in turn is influenced by the bandgap energy of the semiconductor material. Different semiconductor materials yield LEDs of various colors; for instance, gallium arsenide for red LEDs and gallium nitride for blue LEDs. The higher the bandgap energy, the shorter the wavelength, resulting in higher-frequency light. LEDs emit electromagnetic radiation in the form of light, with the color spectrum determined by the semiconductor properties, enabling a wide range of applications in lighting and display technologies.
+**More on LED:** Electrons and holes recombine in a semiconductor and release photons. The material's bandgap affects the emitted wavelength, which is why different semiconductor materials produce different LED colors.
 
 **Triac:** A triac, or triode for alternating current, is a semiconductor device commonly used in AC power control applications. It acts as a bidirectional switch, allowing current to flow in both directions when triggered. Triacs consist of three layers of semiconductor material and can be triggered into conduction by a small gate current. Once triggered, a triac remains conducting until the current falls below a certain threshold. Triacs are frequently used in dimmer switches, motor speed control, and other applications where precise control of AC power is needed. Their bidirectional nature makes them suitable for controlling both halves of an AC waveform.
 

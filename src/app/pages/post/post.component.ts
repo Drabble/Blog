@@ -1,63 +1,42 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { Observable, combineLatest, mergeMap, of, switchMap, tap } from 'rxjs';
-import { Post } from '../../post';
-import { CommonModule } from '@angular/common';
-import { MarkdownComponent } from 'ngx-markdown';
+import { catchError, forkJoin, map, of, startWith, switchMap, tap } from 'rxjs';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { Title } from '@angular/platform-browser';
+import { Post } from '../../post';
+import { MarkdownComponent } from '../../components/markdown/markdown.component';
+
+interface PostState { post?: Post; previous?: string; next?: string; failed: boolean; }
 
 @Component({
   selector: 'app-post',
   standalone: true,
-  imports: [CommonModule, RouterLink, MarkdownComponent],
+  imports: [RouterLink, MarkdownComponent],
   templateUrl: './post.component.html',
-  styleUrl: './post.component.scss'
+  styleUrl: './post.component.scss',
 })
 export class PostComponent {
-  post?: Post
-  previous?: string
-  next?: string
-
-  constructor(private http: HttpClient, private route: ActivatedRoute, private titleService: Title,) { }
-
-  getPost(slug: string): Observable<any> {
-    return this.http.get(`assets/posts/${slug}/index.json`);
-  }
-
-  getPaths(): Observable<string[]> {
-    return this.http.get<string[]>(`assets/posts.json`);
-  }
-
-  ngOnInit(): void {
-    this.route.params
-      .pipe(
-        mergeMap(params => combineLatest(
-          [of(params['slug']),
-          this.getPost(params['slug'])]
-        )),
-        tap(([slug, post]) => {
-          this.titleService.setTitle(post.title);
-          this.post = {
-            ...post,
-            path: slug
-          }
-        })
-      )
-      .subscribe();
-
-    this.route.params
-      .pipe(
-        mergeMap(params => combineLatest(
-          [of(params["slug"]),
-          this.getPaths()]
-        )),
-        tap(([slug, paths]) => {
+  private readonly http = inject(HttpClient);
+  private readonly route = inject(ActivatedRoute);
+  private readonly title = inject(Title);
+  readonly state = toSignal(this.route.paramMap.pipe(
+    switchMap(params => {
+      const slug = params.get('slug') ?? '';
+      if (!/^[a-zA-Z0-9_-]+$/.test(slug)) return of<PostState>({ failed: true });
+      return forkJoin({
+        post: this.http.get<Post>('assets/posts/' + slug + '/index.json'),
+        paths: this.http.get<string[]>('assets/posts.json'),
+      }).pipe(
+        map(({ post, paths }): PostState => {
           const index = paths.indexOf(slug);
-          this.next = index > 0 ? paths[index - 1] : undefined;
-          this.previous = index < paths.length - 1 ? paths[index + 1] : undefined;
-        })
-      )
-      .subscribe();
-  }
+          if (index < 0) return { failed: true };
+          return { post: { ...post, path: slug }, previous: paths[index + 1], next: index > 0 ? paths[index - 1] : undefined, failed: false };
+        }),
+        catchError(() => of<PostState>({ failed: true })),
+        startWith<PostState>({ failed: false }),
+      );
+    }),
+    tap(state => this.title.setTitle(state.post?.title ?? (state.failed ? 'Article unavailable' : 'Antoine Drabble'))),
+  ), { initialValue: { failed: false } as PostState });
 }

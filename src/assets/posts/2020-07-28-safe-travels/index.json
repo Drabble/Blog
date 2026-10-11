@@ -1,7 +1,7 @@
 {
-    "thumbnail": "thumbnail.mp4",
-    "title": "Safe travels",
-    "description": "A casual multiplayer game where the central concept revolves around players collaboratively flying a plane by dynamically jumping onto and moving along its wings. The game incorporates procedural terrain generation to create an expansive and ever-changing environment, providing an infinite map for players to explore.",
-    "date": "July 28, 2020",
-    "tag": "game"
+  "thumbnail": "thumbnail.mp4",
+  "title": "Safe travels",
+  "description": "Safe Travels was a multiplayer game where players steered a plane by moving along its wings.",
+  "date": "July 28, 2020",
+  "tag": "game"
 }

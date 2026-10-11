@@ -1,6 +1,6 @@
-Arduino is an open-source electronics platform that consists of a programmable microcontroller board designed for various DIY projects and prototyping.
+I made a MIDI controller by connecting potentiometers to an Arduino's analog inputs and mapping their readings to values from 0 to 127.
 
-To compile C code for Arduino, we use the Arduino IDE, which simplifies the process by providing a user-friendly interface. It uses the Arduino library functions for managing hardware interactions, allowing us to easily interface with pins, sensors, and peripherals. Arduino boards typically have digital and analog pins, each with specific functionalities, enabling input/output connections for components like sensors, LEDs, and motors. 
+I used the Arduino IDE to upload the program. The examples below show a button and a potentiometer.
 
 There are multiple types of Arduino boards of different sizes. The most common one is the Arduino uno.
 
@@ -26,10 +26,10 @@ To make a midi controller with an Arduino board, I connected some potentiometer 
 
 *Example circuit for a midi controller*
 
-Then in the C code, I used the `MIDIUSB.h` library from Arduino. It will allow the board to be recognised as a MIDI controller in any DAW.
+The examples use `MIDIUSB.h`. Native USB MIDI requires a compatible board, not a standard Uno's serial USB connection. The samples are kept as historical examples rather than a complete controller implementation.
 
 Here is a sample code for a single button midi controller.
- 
+
 ```c
 #include <MIDIUSB.h>
 

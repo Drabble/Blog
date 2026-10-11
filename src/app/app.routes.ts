@@ -1,8 +1,6 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { PostComponent } from './pages/post/post.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'post/:slug', component: PostComponent },
+    { path: '', loadComponent: () => import('./pages/home/home.component').then(module => module.HomeComponent) },
+    { path: 'post/:slug', loadComponent: () => import('./pages/post/post.component').then(module => module.PostComponent) },
 ];

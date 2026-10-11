@@ -1,7 +1,7 @@
 {
-    "thumbnail": "thumbnail.webp",
-    "title": "Mountain Track",
-    "description": "Mountain Tracks Explorator is a project developed as part of the Information Visualisation master course at HES-SO. The project is available on GitHub for exploration and learning purposes.",
-    "date": "August 19, 2017",
-    "tag": "website"
+  "thumbnail": "thumbnail.webp",
+  "title": "Mountain Track",
+  "description": "Mountain Tracks Explorator was a project for the Information Visualisation master's course at HES-SO.",
+  "date": "August 19, 2017",
+  "tag": "website"
 }

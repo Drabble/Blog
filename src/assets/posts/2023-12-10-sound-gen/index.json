@@ -1,7 +1,7 @@
 {
-    "thumbnail": "thumbnail.mp4",
-    "title": "Sound Generation with AI",
-    "description": "Exploring text to sound generation with transformer networks and AudioCraft.",
-    "date": "December 10, 2023",
-    "tag": "machine learning"
+  "thumbnail": "thumbnail.mp4",
+  "title": "Sound Generation with AI",
+  "description": "I started with music generation of MIDI files with Variational Auto Encoders some time ago.",
+  "date": "December 10, 2023",
+  "tag": "machine learning"
 }

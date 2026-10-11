@@ -1,12 +1,8 @@
 Checkout out https://audioma.io.
 
-The other day I was bored with Duo Lingo, trying to learn spanish and doing exercices. It becomes highly repetitive
-and uninteresting. So I decided I would try listening to spanish each opportunity I had. I wanted to listen to it
-while cooking, walking the dog or all other simple tasks where your mind is free to concentrate on something else.
-I started looking for simple audiobooks in spanish but quickly found that it was either too complex or not interesting to me.
-For example, children stories are simple to understand but not very interesting. I realised I could generate audiobooks
-by leveraging LLMs such as ChatGPT along with state of the art TTS (text to speech) models to generate interesting content
-in any language.
+I was getting bored with repetitive Spanish exercises on Duolingo. I wanted something to listen to while cooking or walking the dog, but the audiobooks I found were either too difficult or not interesting to me. Children's stories were easier to follow, but I wanted other subjects.
+
+That led me to try generating stories with an LLM and reading them with a text-to-speech model. I could choose both the topic and the language level.
 
 This is where the idea for Audioma came. Why not generate a bunch of audiobooks on all kinds of topics, like
 geography, history, science, etc. Put them on a CDN and make an app to read them. On top of that with some 

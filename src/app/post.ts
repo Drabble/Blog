@@ -1,5 +1,5 @@
 export interface Post {
-    thumbnail: any
+    thumbnail: string
     title: string
     description: string
     date: string
