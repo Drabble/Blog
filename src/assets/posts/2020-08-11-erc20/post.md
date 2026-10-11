@@ -71,7 +71,7 @@ Bitcoin still suffers from that but it is called the 50% percent attack because 
 
 But how do we make signing a block require processing power, this is called proof of work and it uses hasing. 
 
-Hashing is a process that transforms input data (of any size) into a fixed-size string of characters, typically a hash code or hash value, using a mathematical function called a hash function. Hashing is widely used in computer science and cryptography for tasks such as data indexing, integrity verification, and password storage. The resulting hash is unique to the input data, and even a small change in the input produces a significantly different hash.
+A hash function maps input data to a fixed-size output. Cryptographic hashes are designed so that finding two different inputs with the same output is difficult, but collisions are still possible. A small input change generally produces a very different hash.
 
 The idea is to require miners to find a random value to add to a block that causes the hash of the block to have a certain value. In Bitcoin, the target hash value is a dynamically adjusted numerical value that determines the difficulty of mining a new block. Specifically, the hash value must start with a certain number of leading zeros. So let's say we have a block with all of its data and the difficulty is 3, we want to find a value such as "abcd" that will cause the block to output a value starting with to "000". There a many values that are valid but it's difficult to find one. 
 

@@ -1,6 +1,6 @@
-Everything in the universe, including sound, is made up of vibrations. The faster something vibrates, the higher its frequency, measured in Hertz (Hz). When air molecules vibrate, they hit our eardrums, and our brain interprets these vibrations as sound. The frequency we perceive determines the pitch of the sound: higher frequencies correspond to higher pitches, and lower frequencies to lower pitches.
+Sound is a pressure wave. Its frequency is measured in Hertz (Hz) and affects the pitch we hear: higher frequencies generally produce higher pitches.
 
-Imagine plucking a guitar string. It doesn't just vibrate at one frequency; it also vibrates at multiples of its fundamental frequency, called harmonics or overtones. These harmonics blend with the fundamental to create the rich timbre of the guitar sound. Interestingly, certain ratios between frequencies create sounds that our ears perceive as pleasant and harmonious.
+A plucked guitar string vibrates at a fundamental frequency and at higher modes. Those components contribute to the instrument's timbre. Ratios between notes are part of how we describe intervals.
 
 **Origins**
 
@@ -98,7 +98,7 @@ Until now we have only talked about intervals, but what about notes. The notes w
 Initially, we only used the most consonant intervals with the 7 notes ABCDEFG. It was limiting musicians to express deeper feelings, tension and resolution but it also limited the number of scales a musician could build from. When we added all the extra notes that make up the circle of fifth, we added new notes in-between other notes. These are called the sharps or the flats and they are the black keys on the piano. There are sharps for the ACDFG notes.
 
 **Pitch in western music**
- 
+
 For centuries, there was no single pitch standard across Europe. Different regions and traditions used their own tuning systems, leading to variations in the frequency of notes. In France, for example, A was tuned around 435 Hz, while in Italy, it was closer to 440 Hz. This inconsistency posed challenges for musicians traveling and collaborating across regions.
 
 In the 19th century, the need for a unified tuning system grew with the increasing popularity of orchestras and international collaborations. In 1885, the Austrian government proposed A440 Hz as a standard, drawing inspiration from earlier proposals by German physicist Johann Heinrich Scheibler.
@@ -236,7 +236,7 @@ There are three main types of chord inversions:
 - First Inversion: The lowest note is the chord's third instead of the root. This means the root note has moved up an octave, and the third is now the lowest note.
 - Second Inversion: The lowest note is the chord's fifth instead of the root. Both the root and the third have moved up octaves, and the fifth is now in the bass.
 
-Chord inversions are useful for creating smooth and interesting harmonic progressions, providing a sense of movement and avoiding large jumps between chords. Inversions also contribute to the overall sound and voicing of a musical piece, allowing for variety and richness in chord progressions. Musicians often use inversions to create a more seamless and flowing harmonic structure in their compositions or arrangements.
+Inversions can reduce the distance between chord voicings. Keeping some notes close while moving others helps a progression flow.
 
 **Tension and resolution**
 
@@ -244,9 +244,9 @@ This topic is very broad. Building tension in music is often achieved through th
 
 The dominant seventh chord, often denoted as V7, is a chord built on the fifth scale degree of a diatonic scale. In the key of C major, for example, the G7 chord is the dominant seventh chord. The dominant seventh chord introduces tension through the tritone, an interval of three whole tones or six half steps. In the G7 chord in the key of C major, the tritone is formed between the notes B and F. The tritone within the dominant seventh chord creates a strong desire for resolution. This tension is resolved by moving to a more stable and consonant chord, often the tonic (I) chord. In the key of C major, the resolution would be from G7 to C.
 
-The V7-I cadence is a powerful harmonic progression that exploits this tension and resolution. The dominant seventh chord (V7) creates anticipation, and the resolution to the tonic chord (I) provides a satisfying conclusion, establishing a sense of tonal stability.
+The V7-I cadence moves from a dominant seventh chord to the tonic. The dominant's tension resolves toward the tonic.
 
-Functional Harmony: This tension and resolution between the dominant and tonic chords are fundamental to functional harmony, which forms the basis of much Western classical and popular music. The movement from the dominant to the tonic, especially when the dominant seventh chord is used, is a powerful tool for building and releasing tension in music. The dissonance introduced by the tritone in the dominant seventh chord creates an expectation for resolution, making the transition to the stable tonic chord a satisfying and conclusive moment in the musical narrative.
+Functional harmony describes the roles chords play within a key. Dominant-to-tonic movement is one common way to create and resolve tension.
 
 **The 7th**
 
@@ -265,10 +265,9 @@ Extended Chords (9th, 11th, 13th):
 
 Beyond the seventh, jazz and other genres commonly use extended chords with added ninths, elevenths, and thirteenths. For example, a Cmaj9 chord includes the notes C (root), E (third), G (fifth), B (seventh), and D (ninth). These extended chords provide even more color and complexity to harmonic progressions, contributing to the sophisticated sound characteristic of jazz and certain contemporary styles.
 
-In summary, adding a seventh to a triad enhances harmonic richness and introduces tension and resolution. Seventh chords are standard in jazz due to their expressive potential and compatibility with the genre's improvisational nature. Extended chords with added 9th, 11th, and 13th further expand the harmonic palette, offering musicians additional tools for creative expression.
+Seventh chords add another note to a triad. Extensions such as the ninth, eleventh, and thirteenth add further colors.
 
 **Key change (modulation)**
-
 
 A key change, also known as modulation, occurs when a piece of music shifts from one tonal center or key to another. This change introduces a new set of pitches as the tonal center, altering the overall harmonic and melodic framework of the composition. Key changes can add variety, emotion, and interest to a musical piece. Here are some key points about key changes:
 
@@ -282,7 +281,7 @@ Key changes can evoke different emotions and moods, providing contrast within a 
 Methods of Achieving Key Changes:
 - Chromatic Movement: Moving chromatically between chords or notes can lead to a key change.
 - Circle of Fifths: Progressing through the circle of fifths or its relative minor/major can smoothly transition to a new key.
-- Pivot Chords: Using a chord that exists in both the current and new keys facilitates a seamless transition.
+- Pivot Chords: Using a chord that exists in both the current and new keys can connect the two keys through a shared chord.
 
 Common Modulation Techniques:
 - Up a Perfect Fifth: Modulating up a perfect fifth is a common and powerful modulation in classical and popular music.
@@ -291,7 +290,7 @@ Common Modulation Techniques:
 
 Classical music composers often used key changes to navigate through different movements or sections, providing structural coherence. Key changes are frequent in jazz, contributing to the genre's harmonic complexity and improvisational nature. Many pop songs use key changes in the bridge or final chorus to heighten emotional impact or add excitement. 
 
-Key changes are a powerful tool for composers and arrangers, allowing them to shape the overall structure and emotional landscape of a musical piece. Whether subtle or dramatic, a well-executed key change can captivate the listener and bring a fresh perspective to the musical narrative.
+A key change can shift the direction of a piece. It may be subtle, using shared notes or chords, or abrupt for contrast.
 
 **Blues music**
 
@@ -309,7 +308,7 @@ Here's an explanation of few blues techniques related to music theory:
 2. **Using major chords instead of minor chords:** Blues frequently employs dominant seventh chords, which are neither strictly major nor minor but contain major thirds. This ambiguity contributes to the bluesy sound. Major chords, particularly dominant seventh chords, are used even in situations where traditional Western theory might suggest a minor chord. For instance, a blues progression in the key of G might use G7 instead of Gm. Dominant seventh chords, with their major third and minor seventh, add tension and are a fundamental harmonic element in blues. The major third creates a major-minor hybrid quality that defines the blues sound.
 3. **Using major scale melody over a minor key:** Musicians playing over a blues progression may use the major pentatonic or major blues scale even if the underlying harmony is based on a minor key. This juxtaposition creates tension and a distinct blues flavor. For example, in the key of A minor blues, a guitarist might use the A major pentatonic or A major blues scale, blending major and minor elements.
 
-In summary, blues techniques often involve the intentional use of the tritone, the incorporation of major chords, and the utilization of major scales over minor keys. These techniques contribute to the unique and expressive nature of blues music, creating tension, ambiguity, and the characteristic sound associated with the genre.
+Blues often mixes major and minor sounds, including blue notes and dominant seventh chords.
 
 **Rythm and music notation**
 
@@ -352,4 +351,4 @@ Rhythm is a fundamental aspect of music that governs the organization of sounds 
 
 - **Rhythm in Different Cultures:** Various cultures around the world have unique rhythmic traditions. The rhythms of African, Indian, and Middle Eastern music, for example, offer rich and diverse approaches to rhythm.
 
-Understanding and manipulating these rhythmic elements allows musicians to create engaging, dynamic, and expressive compositions across a wide range of musical genres. Rhythm is a powerful tool for conveying emotion, establishing groove, and shaping the overall character of a musical work.
+These rhythmic elements affect the groove and phrasing of a piece.

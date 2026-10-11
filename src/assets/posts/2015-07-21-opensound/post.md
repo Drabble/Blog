@@ -1,16 +1,6 @@
-Introducing Opensound, a no-nonsense, open-source, and rights-free audio social network that's all about making quality sound accessible to everyone. This platform is dedicated to the essentials of downloading, listening, and creating playlists using content that is free from restrictions.
+Opensound was an audio-sharing website for listening, downloading, and organizing playlists. The idea was to focus on freely reusable audio rather than commercial music.
 
-Opensound breaks down barriers by offering a straightforward approach to audio enjoyment. As an open-source platform, it encourages collaboration and sharing within a community that values freedom in the world of sound. All audio content on Opensound is not only open source but also free of rights, allowing users to explore, download, and create without worrying about restrictions.
-
-Whether you're a content creator looking for the perfect soundtrack or an individual who appreciates the beauty of unrestricted audio, Opensound is your hub for a diverse and rights-free audio experience. Join the Opensound community and immerse yourself in a world of open-source, rights-free sound that celebrates the spirit of accessibility in every note.
-
-Opensound is crafted using a combination of PHP, MySQL, and HTML technologies, bringing you a seamless and functional open-source, rights-free audio social network. The PHP scripting language forms the backbone, ensuring dynamic server-side functionality, while MySQL handles the database management, facilitating efficient storage and retrieval of your audio content.
-
-The user interface is designed with HTML, providing a clean and intuitive platform for downloading, listening, and creating playlists. The combination of these technologies allows Opensound to deliver a responsive and user-friendly experience, making it easy for both creators and listeners to engage with the platform.
-
-Behind the scenes, PHP interacts with the MySQL database, enabling users to navigate through an extensive library of open-source audio content effortlessly. This powerful trio of PHP, MySQL, and HTML ensures that Opensound not only provides a smooth and enjoyable user experience but also maintains the integrity of open-source and rights-free principles.
-
-Here is a sample SQL script to create a basic database for storing audio tracks and user information.
+I built the site with PHP, MySQL, and HTML. The source code was open source. That is separate from the license of an audio file, which still needs to be checked before reuse.
 
 ```sql
 -- Create Opensound Database
@@ -49,15 +39,25 @@ INSERT INTO audio_tracks (user_id, title, file_path) VALUES
 ```
 
 ![Screenshot](assets/posts/2015-07-21-opensound/1.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/2.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/3.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/4.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/5.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/6.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/7.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/8.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/9.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/10.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/11.webp "Screenshot")
+
 ![Screenshot](assets/posts/2015-07-21-opensound/12.webp "Screenshot")
-*Screenshot of the website*

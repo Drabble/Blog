@@ -1,7 +1,7 @@
 {
-    "thumbnail": "thumbnail.mp4",
-    "title": "Protein Diffusion Viewer",
-    "description": "Real-time molecular renderer for visualizing AI diffusion denoising trajectories with stochastic point splatting.",
-    "date": "May 06, 2026",
-    "tag": "machine learning"
+  "thumbnail": "thumbnail.mp4",
+  "title": "Protein Diffusion Viewer",
+  "description": "I built a Rust and wgpu renderer to inspect the successive frames of a protein diffusion model.",
+  "date": "May 06, 2026",
+  "tag": "machine learning"
 }

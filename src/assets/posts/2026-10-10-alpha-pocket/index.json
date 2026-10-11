@@ -1,0 +1,7 @@
+{
+  "thumbnail": "search.png",
+  "title": "AlphaPocket: exploring protein pockets",
+  "description": "Search predicted protein pockets, inspect their structures, and compare precomputed ESM3 embeddings.",
+  "date": "October 10, 2026",
+  "tag": "machine learning"
+}

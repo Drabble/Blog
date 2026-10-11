@@ -34,12 +34,9 @@
         </svg>
     </a>
 </div>
-<!--<div class="tags">
-    <a *ngFor="let tag of tags" (click)="selectedTag = selectedTag === tag.id ? undefined : tag.id"
-        [class.selected]="selectedTag === tag.id">{{ tag.name }}</a>
-</div>-->
+@if (state().failed) { <p role="alert">The project list could not be loaded. Please try again.</p> }
 <div class="cards">
-    <ng-container *ngFor="let post of posts">
-        <app-card [post]="post" [id]="post.path" /><!--*ngIf="!selectedTag || post.tag === selectedTag" -->
-    </ng-container>
+    @for (post of state().posts; track post.path) {
+        <app-card [post]="post" [id]="post.path" />
+    }
 </div>

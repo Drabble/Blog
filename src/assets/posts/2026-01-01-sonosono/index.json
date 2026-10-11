@@ -1,7 +1,7 @@
 {
-    "thumbnail": "thumbnail.mp4",
-    "title": "Sono Sono - sonosono.app",
-    "description": "An interactive tool for guitar learning and practice at sonosono.app.",
-    "date": "January 1, 2026",
-    "tag": "music"
+  "thumbnail": "thumbnail.mp4",
+  "title": "Sono Sono - sonosono.app",
+  "description": "Sono Sono is a guitar-practice application that combines audio transcription with microphone feedback.",
+  "date": "January 1, 2026",
+  "tag": "music"
 }

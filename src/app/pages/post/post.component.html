@@ -1,40 +1,21 @@
-<div *ngIf="post">
-    <div class="back">
-        <a href="/#{{post.path}}">⬅️ back to home</a>
-    </div>
-    <div class="next_prev">
-        <div *ngIf="previous">
-            <a routerLink="/post/{{previous}}">Previous post</a>
-        </div>
-        <div *ngIf="!previous"></div>
-        <div *ngIf="next">
-            <div *ngIf="next">
-                <a routerLink="/post/{{next}}">Next post</a>
-            </div>
-        </div>
-    </div>
+@if (state().post; as post) {
+  <div>
+    <div class="back"><a href="/#{{post.path}}">⬅️ back to home</a></div>
+    <nav class="next_prev" aria-label="Adjacent posts">
+      <div>@if (state().previous; as previous) { <a [routerLink]="['/post', previous]">Previous post</a> }</div>
+      <div>@if (state().next; as next) { <a [routerLink]="['/post', next]">Next post</a> }</div>
+    </nav>
     <div class="header">
-        <h1 class="title">
-            {{post.title}}
-        </h1>
-        <div class="date">
-            {{post.date}}
-        </div>
-        <div>
-            <span class="tag">{{post.tag}}</span>
-        </div>
+      <h1 class="title">{{post.title}}</h1>
+      <div class="date">{{post.date}}</div>
+      <div><span class="tag">{{post.tag}}</span></div>
     </div>
-    <markdown src="assets/posts/{{post.path}}/post.md" lineNumbers [start]="0" [disableSanitizer]="true"
-        ngPreserveWhitespaces katex />
-    <div class="next_prev">
-        <div *ngIf="previous">
-            <a routerLink="/post/{{previous}}">Previous post</a>
-        </div>
-        <div *ngIf="!previous"></div>
-        <div *ngIf="next">
-            <div *ngIf="next">
-                <a routerLink="/post/{{next}}">Next post</a>
-            </div>
-        </div>
-    </div>
-</div>
+    <markdown [src]="'assets/posts/' + post.path + '/post.md'" />
+    <nav class="next_prev" aria-label="Adjacent posts">
+      <div>@if (state().previous; as previous) { <a [routerLink]="['/post', previous]">Previous post</a> }</div>
+      <div>@if (state().next; as next) { <a [routerLink]="['/post', next]">Next post</a> }</div>
+    </nav>
+  </div>
+} @else if (state().failed) {
+  <p role="alert">The article could not be loaded. <a routerLink="/">Return to home</a></p>
+}

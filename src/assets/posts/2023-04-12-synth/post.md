@@ -6,7 +6,7 @@ Let's break down these elements.
 
 **The JUCE framework**
 
-JUCE, or the Jules' Utility Class Extensions, is a powerful C++ framework widely used for developing cross-platform audio, graphics, and interactive applications. JUCE simplifies the creation of robust software across Windows, macOS, Linux, iOS, and Android. Its extensive library includes components for GUI design, audio processing, and integration with various hardware interfaces. 
+JUCE provided the C++ audio and interface components for the plugin. I used it to focus on the signal processing rather than writing the plugin infrastructure from scratch.
 
 Here is a simple JUCE example.
 
@@ -116,7 +116,6 @@ Here is an example. The timbre is the unique quality of the sound that a musical
 
 Accoustic instruments move the air by vibrating a string or a surface which in turns move the air around. With analog electronic instrument, complex electronic circuits generate an variating electronic signal that will in turn move a speaker back and forth to move the air. With digital electronic instruments a software will generate the signal, that will then be transformed into an analog signal using a DAC (Digital to Analog Converter) and finally go to a speaker.
 
-
 **More advanced stuff about synths**
 
 1. **Saturation** is a nonlinear distortion effect that occurs when a signal exceeds a certain amplitude, resulting in a soft clipping or compression of the waveform. The clipping changes the waveform and adds harmonics to it. Saturation is often used in synthesizers to add warmth, character, and harmonics to sounds. It can simulate the saturation characteristics of analog circuitry.
@@ -129,7 +128,7 @@ Accoustic instruments move the air by vibrating a string or a surface which in t
 
 5. **Contour** In the context of synthesizers, contour refers to the shaping of the amplitude envelope of a sound, including Attack, Decay, Sustain, and Release (ADSR) parameters. Contour settings allow precise control over how a sound evolves over time. Different contour shapes can be used to create sharp, percussive sounds or smooth, evolving textures.
 
-6. **Module synthesis** is an approach to sound synthesis that involves building a synthesizer by connecting individual modules. Each module typically performs a specific function, such as oscillators, filters, envelopes, and more. Users can customize and configure the signal flow by patching cables between modules. Modular synthesizers provide unparalleled flexibility and creativity. Musicians can create unique signal paths, experiment with signal routing, and build highly customized sound generation and processing systems.
+6. **Modular synthesis** connects separate oscillators, filters, envelopes, and other components into a signal path. Changing the connections changes how the synthesizer produces and processes sound.
 
 7. **Voltage control** (or control voltage, CV) is a method used in analog synthesizers where voltages are used to control various parameters. Changes in voltage can alter the pitch, amplitude, filter cutoff, and other parameters. Voltage control allows for dynamic and expressive manipulation of sound parameters. For example, a voltage-controlled oscillator (VCO) can change pitch based on the incoming control voltage, and a voltage-controlled filter (VCF) can alter its cutoff frequency in response to voltage changes.
 

@@ -29,9 +29,9 @@ a. A sigmoid layer decides which parts of the memory cell state to output.
 b. The output is then filtered through a tanh layer to ensure the values are between -1 and 1.
 Final Output:
 
-The updated memory cell state becomes the hidden state for the next time step, and the output is generated based on this hidden state. During training, the LSTM learns the weights and biases of its gates through the backpropagation algorithm.
+The LSTM carries both a cell state and a hidden state to the next time step. Training adjusts the gates' weights and biases through backpropagation.
 
-In summary, LSTMs use memory cells and gates to selectively read, write, and erase information over multiple time steps, allowing them to capture long-term dependencies in sequential data. This architecture helps mitigate the vanishing gradient problem and makes LSTMs effective for tasks such as natural language processing, time series prediction, and more.
+The gates control how information enters, leaves, and persists in the cell state across time steps.
 
 ![Screenshot](assets/posts/2020-05-22-crypto-lstm/lstm_cell.webp "Screenshot")
 *LSTM cell*

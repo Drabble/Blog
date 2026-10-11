@@ -1,7 +1,7 @@
 {
     "thumbnail": "thumbnail.webp",
     "title": "Metal detector with Arduino",
-    "description": "",
+    "description": "An Arduino metal-detector experiment and notes on how the detection coil works.",
     "date": "February 2, 2019",
     "tag": "diy"
 }

@@ -1,8 +1,8 @@
-Krud is a feature-rich sporting clothes shopping website developed using a classic stack comprising MySQL for the database, PHP for server-side logic, and HTML for the frontend structure. This project seamlessly integrates these technologies to create an interactive and efficient e-commerce platform for athletic apparel.
+Krud was a sportswear shopping website built with MySQL, PHP, and HTML. It stored products, accounts, orders, and inventory.
 
 **Database Design with MySQL:**
 
-The backbone of Krud's data management is MySQL, a relational database system. The database stores essential information such as product details, user accounts, order history, and inventory status. The database schema is carefully designed to ensure efficient queries and data retrieval.
+MySQL stored the shop data. This example shows a product table.
 
 ```sql
 CREATE TABLE products (
@@ -16,7 +16,7 @@ CREATE TABLE products (
 
 **Server-Side Logic with PHP:**
 
-PHP serves as the server-side scripting language, handling dynamic content generation and interaction with the MySQL database. PHP scripts process user requests, manage sessions, and execute business logic, ensuring a seamless flow of data between the frontend and the database.
+PHP handled requests, sessions, and database access. The historical example below is incomplete and interpolates input directly into SQL. It is not safe code to copy into a live application.
 
 ```php
 <?php
@@ -30,7 +30,7 @@ PHP serves as the server-side scripting language, handling dynamic content gener
 
 **HTML for Frontend Structure:**
 
-HTML is used to create the structure of Krud's frontend, defining the layout and presenting content to users. HTML is combined with PHP to dynamically generate pages based on user interactions and database queries.
+PHP generated the HTML for product pages.
 
 ```html
 <div class="product-details">
@@ -43,7 +43,7 @@ HTML is used to create the structure of Krud's frontend, defining the layout and
 
 **Secure User Authentication:**
 
-Krud incorporates secure user authentication mechanisms to protect user data. Passwords are hashed before storage in the database, and sessions are managed securely to verify the identity of users across different pages.
+The shop used password hashing and login sessions. The example below is preserved from the original post, but it does not check a stored account password and is not a correct authentication implementation.
 
 ```php
 // Example PHP script for user login authentication

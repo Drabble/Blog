@@ -1,7 +1,7 @@
 {
-    "thumbnail": "thumbnail.webp",
-    "title": "Github Exporer",
-    "description": "GitHub Explorer is a web application designed to explore data provided by the GitHub API. This project is crafted with a technical stack comprising AngularJS, Chart.js, and Express.js.",
-    "date": "October 28, 2016",
-    "tag": "website"
+  "thumbnail": "thumbnail.webp",
+  "title": "Github Exporer",
+  "description": "GitHub Explorer used the GitHub API to explore repository data.",
+  "date": "October 28, 2016",
+  "tag": "website"
 }

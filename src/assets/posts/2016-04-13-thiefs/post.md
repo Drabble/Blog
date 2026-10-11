@@ -1,8 +1,8 @@
-Diving into creating an FPS game was a cool experience. Getting hands-on with raycasting and figuring out how FPS games calculate the bullet direction from the cursor position was especially interesting. Let me break it down a bit:
+I made an FPS prototype in Unity to learn how to calculate a shot direction and detect what it hit.
 
 **Raycasting Unveiled**
 
-Raycasting involves a blend of geometry and math wizardry to precisely determine where a ray intersects with the game world. At its core, it's about shooting a ray along a vector direction from an origin and finding where it hits an object. Here's a sample c# code with Unity:
+A raycast checks where a ray from an origin in a given direction intersects an object. Here is a small Unity example.
 
 Define the Ray:
 
@@ -26,9 +26,9 @@ In this snippet, Physics.Raycast is a common function that simulates shooting a 
 
 **Behind the Bullet: Visuals vs. Reality**
 
-Ever wondered why shooting from point-blank range in FPS games sometimes feels a bit off? Well, here's the scoop: in many FPS games, the bullet you see firing from your gun is primarily for visual flair. The real action happens through the invisible force of raycasting.
+In a hitscan weapon, the visible bullet or tracer can be separate from the hit calculation.
 
-When you pull the trigger, the game instantly calculates the impact point using a ray cast from your camera. So, that bullet you see traveling through the air is more like a cinematic touch, while the actual hit is determined by the rapid computational wizardry of raycasting.
+A ray from the camera finds the impact point immediately. The shot animation then shows that result. Projectile-based weapons work differently.
 
 <img src="assets/posts/2016-04-13-thiefs/1.webp" alt="Game" title="Game" />
 
